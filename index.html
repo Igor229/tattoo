@@ -12,19 +12,19 @@
       <img src="assets/logos_icons/main-logo.png" alt="logo">
     </div>
     <div class="header-list">
-      <li class="header-list__item">Home</li>
-      <li class="header-list__item">Designs</li>
-      <li class="header-list__item">About</li>
-      <li class="header-list__item">Contact</li>
+      <a href="#home"><li class="header-list__item">Home</li></a>
+      <a href="#designs"><li class="header-list__item">Designs</li></a>
+      <a href="#about"><li class="header-list__item">About</li></a>
+      <a href="#contact"><li class="header-list__item">Contact</li></a>
     </div>
   </header>
 
-  <section class="main wrapper">
+  <section class="main wrapper" id="home">
     <div class="main-info">
       <div class="main-info__about">
         <h2 class="main-title"><s>Tattoo Studio</s></h2>
         <p class="main-text">lorem ipsom sole dowa bro js f asd <br> kasmd axsdkakj askd asna ksdka a <br> skd asdm asdj asn asjd asjn asn  ask</p>
-        <button class="main-button">Book Now!</button>
+        <a href="#contact"><button class="main-button">Book Now!</button></a>
       </div>
     </div>
   </section>
@@ -35,7 +35,7 @@
       <div class="styles-info__about">
         <h2 class="styles-title">various Styles</h2>
         <p class="styles-text">Any style you want like lorem ipsum <br> Fasow daskka any style you want like <br> Lorem ipsum fasow daskka any style <br> You want like lorem ipsum fasow <br> Daskka any style you want like lorem <br> Ipsum fasow daskka</p>
-        <button class="styles-button">Designs</button>
+        <a href="#designs"><button class="styles-button">Designs</button></a>
       </div>
     </div>
   </section>
@@ -54,7 +54,51 @@
     </div>
   </section>
 
-  <footer class="footer wrapper">
+  <section class="designs" id="designs">
+    <div class="designs-banner">
+      <h2 class="designs-banner__title">Designs</h2>
+    </div>
+
+    <div class="designs-content">
+      <div class="designs-content__titles">
+        <h3 class="designs-content__tittle">style one</h3>
+        <h3 class="designs-content__tittle">style two</h3>
+        <h3 class="designs-content__tittle">style three</h3>
+      </div>
+
+      <div class="designs-content__cards">
+        <div class="designs-content__card"><img src="assets/images/styles/bird.png" alt="bird" class="card-tatto"></div>
+        <div class="designs-content__card"><img src="assets/images/styles/skul.png" alt="bird" class="card-tatto"></div>
+        <div class="designs-content__card"><img src="assets/images/styles/eye.png" alt="bird" class="card-tatto"></div>
+      </div>
+
+      <div class="designs-content__cards">
+        <div class="designs-content__card"><img src="assets/images/styles/bat.png" alt="bird" class="card-tatto"></div>
+        <div class="designs-content__card"><img src="assets/images/styles/deamon.png" alt="bird" class="card-tatto"></div>
+        <div class="designs-content__card"><img src="assets/images/styles/shark.png" alt="bird" class="card-tatto"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about wrapper" id="about">
+    <div class="about-info">
+      <div class="about-info__container">
+        <h2 class="about-title">I’m Arsen</h2>
+        <p class="about-text">Expericed Tattoo artist based in Ivano-Frankivsk <br> Expert in blah style and Lorem ipsom style asdjnjnaskd mkass asd as ds dad a dasa as as dsamm,msm,admnadnsndmakdkaasd a</p>
+        <div class="about-buttons">
+          <a href="#contact"><button class="about-button button-black">Contact</button></a>
+          <a href="#designs"><button class="about-button button-white">Designs</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-img">
+      <img src="assets/images/video.png" alt="portrait" class="about-img__png">
+    </div>
+  </section>
+
+  <footer class="footer wrapper" id="contact">
     <div class="footer-main">
 
       <div class="footer-item">

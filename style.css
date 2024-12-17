@@ -315,3 +315,168 @@ a, ul, li {
   justify-content: center;
   gap: 13px;
 }
+
+/* _____________DESIGNS_____________ */
+
+.designs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.designs-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/images/designs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.designs-banner__title {
+  color: #000;
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 145px;
+  letter-spacing: 3rem;
+}
+
+.designs-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(44, 0, 0, 1) 0%, rgba(44, 0, 0, 0.8) 100%);
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.designs-content__titles {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.designs-content__tittle {
+  color: #d4d4d4;
+  font-family: "Vesper Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.designs-content__cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.card-tatto {
+  border-radius: 20px;
+}
+
+/* _____________ABOUT_____________ */
+
+.about {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  padding-top: 100px;
+  gap: 80px;
+}
+
+.about-info__container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 25px;
+}
+
+.about-title {
+  color: #2B2B2B;
+  font-family: "Vesper Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 70px;
+  width: 100%;
+}
+
+.about-text {
+  color: #797272;
+  font-family: "Vesper Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.about-buttons {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.about-button {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.about-button:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05)
+}
+
+.button-black {
+  background-color: #0E0E0E;
+  color: #fff;
+}
+
+.button-white {
+  background-color: #fff;
+  color: #0E0E0E;
+  border: 2px solid #0E0E0E;
+}
+
+.about-img {
+  padding-top: 100px;
+}
+
+@media screen and (max-height: 1024px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+  }
+}
